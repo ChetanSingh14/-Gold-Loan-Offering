@@ -1,0 +1,90 @@
+.heading {
+    width: 100%;
+    height: 100vh;
+    background-image: url(home\ backfround.jpeg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .heading1 {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+  
+  .heading1 h1 {
+    font-size: 70px;
+    margin-top: 80px;
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .heading1 p {
+    margin: 20px ;
+    font-weight: 400;
+    line-height: 25px;
+    font-size: 20px;
+  }
+  
+  .cards {
+    display: flex; /* Use flexbox */
+    justify-content: space-around; /* Align items horizontally with space around */
+  }
+  
+  .card {
+    width: 18rem;
+    height: 30rem;
+    box-shadow: 0px 10px 10px solid black;
+    margin: 20px; /* Add margin for spacing between cards */
+    
+  }
+  
+  .cardbody {
+    width: 20rem;
+    height: 18rem;
+  }
+  
+ 
+  
+  
+  
+  .cardsContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .card {
+    width: 30%;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+  height: 70% ;
+  padding: 2%;
+  }
+  
+  .cardbody {
+    padding: 20px;
+  }
+  
+  .cardtitle {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .cardtext {
+    margin-top: 10px;
+    font-size: 1em;
+  }
+  
+
+  
+  
+  
+  
+  

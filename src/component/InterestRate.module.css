@@ -1,0 +1,88 @@
+.eligibilityCriteria {
+    margin-top: 10%;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  }
+  
+  .eligibilityCriteria h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .criteriaList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .criteriaList li {
+    margin-bottom: 10px;
+  }
+  
+  .criteriaList strong {
+    font-weight: bold;
+  }
+  
+  .criteriaList ul {
+    padding-left: 20px;
+  }
+  .loancalculatorsection {
+    background-color: #000000; /* Add background color */
+    padding: 50px 0; /* Add padding for spacing */
+  }
+  
+  .loancalculatorsection h2 {
+    text-align: center; /* Center align the heading */
+    margin-bottom: 30px; /* Add bottom margin for spacing */
+    font-weight: bold; /* Make the heading bold */
+  }
+  
+  .loancalculatorsection form {
+    max-width: 500px; /* Limit form width */
+    margin: 0 auto; /* Center the form */
+  }
+  
+  .loancalculatorsection input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ff9d00;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .loancalculatorsection input::placeholder {
+    color: #000000; /* Add placeholder color */
+  }
+  
+  .loancalculatorsection button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff6a00;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .loancalculatorsection button:hover {
+    background-color: #0044ff;
+    color: rgb(0, 53, 0);
+  }
+  
+  .loandetails {
+    margin-top: 20px; /* Add top margin for spacing */
+  }
+  
+  .loandetails p {
+    font-weight: bold; /* Make the result bold */
+  }
+.container{
+    color: #ff9d00;
+}
+  
+  
+  

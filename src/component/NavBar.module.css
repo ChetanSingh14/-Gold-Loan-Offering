@@ -1,0 +1,130 @@
+.navigation {
+    background-color: rgba(24, 21, 21, 0.705);
+    color: white;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    box-sizing: border-box;
+    position: fixed;
+    top:0;
+    z-index: 500;
+    width: 100vw;
+  }
+  .logo{
+    flex: 20%;
+    display: flex;
+    padding: 2px;
+    justify-content:center;
+  }
+  .logoName{
+    font-weight: 800;
+    color: rgb(245, 245, 17);
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .menu{
+    flex: 80%;
+  
+  }
+  
+  .ul1 {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    font-size: 1.2em;
+  }
+  
+  .logoName {
+    text-transform: uppercase;
+    font-size: 1.8em;
+  
+  }
+  
+  .icn {
+    height: 1.5em;
+    margin: 1px;
+    margin-right: 3vw;
+    font-size: 50px;
+  }
+  
+  /*  */
+  
+  .ul1 li {
+    padding: 10px 30px;
+    border-radius: 20px;
+    transition: background-color 0.4s ease;
+  }
+  
+  .ul1 li:hover {
+    background-color: #f9fcff;
+    cursor: pointer;
+    color: #000000;
+  }
+  
+  .ul1 a {
+    text-decoration: none;
+    color: rgb(229, 255, 36);
+  }
+  
+  .ul1 a:hover {
+    color: #000000;
+  }
+  .menuText{
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    .navigation {
+      display: block;
+      color: #f1f1f1;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 500;
+      background-color: rgba(24, 21, 21, 0.705);
+    }
+    
+    .logo {
+      flex: 1;
+      padding: 12px;
+      text-align: center;
+    }
+    
+    .logoName {
+      font-size: 1.5em;
+    }
+    
+    .menu {
+      display: none;
+    }
+    
+    .ul1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
+    }
+    
+    .ul1 li {
+      padding: 10px;
+      border-radius: 10px;
+      margin: 5px;
+      transition: background-color 0.4s ease;
+    }
+    
+    .ul1 li:hover {
+      background-color: #f9fcff;
+      cursor: pointer;
+      color: #000000;
+    }
+  }
+  
+  @media screen and (max-width:1024px){
+    .menuText{
+      display: none;
+     }
+  }
+  
